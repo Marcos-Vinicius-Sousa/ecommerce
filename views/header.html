@@ -79,7 +79,11 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
+<<<<<<< HEAD
                         <h1><a href="#"><img src="/res/site/img/logojoia.png" style="width: 35%; height: 35%;"></a></h1>
+=======
+                        <h1><a href="#"><img src="/res/site/img/logo.png"></a></h1>
+>>>>>>> 1bbb5094dc6d42a36597b4c0ff48587ba7ab858a
                     </div>
                 </div>
                 
