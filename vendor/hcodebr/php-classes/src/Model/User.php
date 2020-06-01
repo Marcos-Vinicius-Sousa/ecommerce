@@ -38,7 +38,7 @@ class User extends Model {
 		}
 	}
 
-	public static function verifyLogin($inadmin = 0){
+	public static function verifyLogin($inadmin = true){
 
 		var_dump($_SESSION);
 		if(
