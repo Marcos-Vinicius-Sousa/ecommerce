@@ -40,7 +40,11 @@ class User extends Model {
 
 	public static function verifyLogin($inadmin = true){
 
+<<<<<<< HEAD
 		
+=======
+		var_dump($_SESSION);
+>>>>>>> 596b3e6e2a21c3007506d5674c6205d4221a2d1c
 		if(
 			!isset($_SESSION[User::SESSION])// verificando se a sessao esta definida  
 			||
@@ -57,6 +61,7 @@ class User extends Model {
 
 	}
 
+<<<<<<< HEAD
 	public static function logout(){
 
 		$_SESSION[User::SESSION] = NULL;
@@ -88,6 +93,8 @@ class User extends Model {
 
 
 
+=======
+>>>>>>> 596b3e6e2a21c3007506d5674c6205d4221a2d1c
 }
 
 ?>
